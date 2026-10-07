@@ -1,6 +1,4 @@
 @theme {
-    /* Font Tokens based on font configurations from fonts.ts */
-    --font-space-grotesk: var(--font-primary), sans-serif;
-    --font-jetbrains-mono: var(--font-secondary), sans-serif;
-  }
-  
+  /* Maps Tailwind `font-primary` → Next.js localFont CSS variable */
+  --font-primary: var(--font-space-grotesk), ui-monospace, monospace;
+}

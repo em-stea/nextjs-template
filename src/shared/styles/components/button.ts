@@ -8,7 +8,7 @@ const commonClassnames = [
   "justify-center",
   "rounded-lg",
   "hover:cursor-pointer",
-  textVariants({variant: "button.1"}),
+  textVariants({variant: "body.1"}),
 ];
 
 export const buttonVariants = cva(commonClassnames, {

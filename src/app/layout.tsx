@@ -3,6 +3,7 @@ import type {Metadata} from "next";
 import Link from "next/link";
 
 import "@/shared/styles/globals.css";
+import {SpaceGrotesk} from "@/shared/foundations/fonts";
 
 export const metadata: Metadata = {
   title: "nextjs-template",
@@ -10,9 +11,11 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
+  const fonts = SpaceGrotesk.variable;
+
   return (
-    <html lang="en">
-      <body className="container m-auto grid min-h-screen grid-rows-[auto_1fr_auto] gap-8 px-4 font-sans antialiased">
+    <html suppressHydrationWarning className={fonts} lang="en">
+      <body>
         <header className="text-xl leading-16 font-bold">
           <Link href="/">nextjs-template</Link>
         </header>

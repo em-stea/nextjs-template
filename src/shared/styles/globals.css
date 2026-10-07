@@ -1,8 +1,8 @@
 @import "tailwindcss";
+@import "../semantic-tokens/font.css";
+@import "../semantic-tokens/text.css";
 /* @import "./foundations/colors.css";
-@import "./semantic-tokens/font.css";
 @import "./semantic-tokens/colors.css";
-@import "./semantic-tokens/text.css";
 @import "./semantic-tokens/tracking.css";
 @import "./semantic-tokens/sizing.css"; */
 @import "tw-animate-css";
@@ -30,7 +30,7 @@
   }
 
   body {
-    font-family: var(--font-space-grotesk), sans-serif;
+    font-family: var(--font-primary);
     background-color: var(--background);
     color: var(--foreground);
   }

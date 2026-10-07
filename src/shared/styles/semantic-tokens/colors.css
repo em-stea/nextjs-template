@@ -1,0 +1,53 @@
+
+
+@theme inline {
+  /* Palette (valores fijos de foundations) */
+  --color-basic-00: var(--basic-00);
+  --color-basic-00-05: var(--basic-00-05);
+  --color-basic-00-10: var(--basic-00-10);
+  --color-basic-00-80: var(--basic-00-80);
+  --color-basic-200: var(--basic-200);
+  --color-basic-300: var(--basic-300);
+  --color-basic-500: var(--basic-500);
+  --color-basic-700: var(--basic-700);
+  --color-basic-700-90: var(--basic-700-90);
+  --color-basic-900: var(--basic-900);
+  --color-basic-940: var(--basic-940);
+  --color-basic-950: var(--basic-950);
+  --color-basic-950-60: var(--basic-950-60);
+  --color-basic-960: var(--basic-960);
+  --color-basic-960-80: var(--basic-960-80);
+  --color-basic-960-90: var(--basic-960-90);
+  --color-basic-970: var(--basic-970);
+
+  --color-blue-50: var(--blue-50);
+  --color-blue-200: var(--blue-200);
+  --color-blue-200-30: var(--blue-200-30);
+  --color-blue-300: var(--blue-300);
+  --color-blue-400: var(--blue-400);
+  --color-blue-700: var(--blue-700);
+  --color-blue-700-20: var(--blue-700-20);
+  --color-blue-900: var(--blue-900);
+  --color-blue-1000: var(--blue-1000);
+
+  --color-red-200: var(--red-200);
+  --color-red-200-30: var(--red-200-30);
+  --color-red-300: var(--red-300);
+  --color-red-400: var(--red-400);
+  --color-red-700: var(--red-700);
+  --color-red-700-20: var(--red-700-20);
+  --color-red-700-70: var(--red-700-70);
+  --color-red-900: var(--red-900);
+
+ --color-green-50: var(--green-50);
+ --color-green-100: var(--green-100);
+ --color-green-200: var(--green-200);
+ --color-green-300: var(--green-300);
+ --color-green-400: var(--green-400);
+ --color-green-500: var(--green-500);
+ --color-green-600: var(--green-600);
+ --color-green-700: var(--green-700);
+ --color-green-800: var(--green-800);
+ --color-green-900: var(--green-900);
+
+}

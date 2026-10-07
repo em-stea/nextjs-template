@@ -1,11 +1,11 @@
-import {Text} from "@/shared/components/text/text";
-import {Button} from "@components/button/button";
+import {Form} from "@/shared/components/form/form";
 
 export default function HomePage() {
   return (
     <main>
-      <Button>👋</Button>
-      <Text variant="body.1">Hello World</Text>
+      <div className="mx-auto w-3xl rounded-xl border border-gray-400 p-10">
+        <Form label="Enter name" placeholder="Enter your name" />
+      </div>
     </main>
   );
 }

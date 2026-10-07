@@ -15,14 +15,14 @@ export const buttonVariants = cva(commonClassnames, {
   variants: {
     variant: {
       primary:
-        "loading:cursor-wait text-basic-00 hover:outline-blue-200-30 bg-blue-700 hover:bg-blue-900 hover:outline disabled:cursor-not-allowed disabled:bg-gray-400",
+        "loading:cursor-wait bg-blue-700 text-basic-00 hover:bg-blue-900 hover:outline hover:outline-blue-200-30 disabled:cursor-not-allowed disabled:bg-gray-400",
       "text-link":
         "tracking-1.6 text-foreground hover:text-highlight flex items-center gap-2 disabled:text-gray-400",
       secondary:
         "border-muted-foreground bg-muted flex size-10 items-center justify-center border p-0 focus-within:border-blue-200 hover:border-blue-200 focus:border-blue-200 disabled:pointer-events-none disabled:opacity-40",
       ghost: "flex size-10 items-center justify-center bg-transparent p-0 hover:border-blue-200",
       "ghost-outline":
-        "group dark:border-basic-00 dark:text-basic-00 flex items-center justify-center rounded-full border border-gray-800 p-1 text-gray-800 transition-colors hover:border-blue-600 hover:text-blue-600 active:border-blue-600 active:text-blue-600 disabled:pointer-events-none disabled:opacity-40 dark:hover:border-blue-200 dark:hover:text-blue-200 dark:active:border-blue-200 dark:active:text-blue-200",
+        "group flex items-center justify-center rounded-full border border-gray-800 p-1 text-gray-800 transition-colors hover:border-blue-600 hover:text-blue-600 active:border-blue-600 active:text-blue-600 disabled:pointer-events-none disabled:opacity-40 dark:border-basic-00 dark:text-basic-00 dark:hover:border-blue-200 dark:hover:text-blue-200 dark:active:border-blue-200 dark:active:text-blue-200",
     },
     size: {
       sm: "px-0.9 py-0.9",
@@ -51,7 +51,7 @@ export const buttonVariants = cva(commonClassnames, {
       size: "xs",
       active: true,
       className:
-        "text-basic-00 hover:text-basic-00 border-blue-700 bg-blue-700 focus-within:border-blue-700 hover:border-blue-700 hover:bg-blue-700 focus:border-blue-700",
+        "border-blue-700 bg-blue-700 text-basic-00 focus-within:border-blue-700 hover:border-blue-700 hover:bg-blue-700 hover:text-basic-00 focus:border-blue-700",
     },
   ],
   defaultVariants: {

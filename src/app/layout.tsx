@@ -2,7 +2,7 @@ import type {Metadata} from "next";
 
 import Link from "next/link";
 
-import "./globals.css";
+import "@/shared/styles/globals.css";
 
 export const metadata: Metadata = {
   title: "nextjs-template",

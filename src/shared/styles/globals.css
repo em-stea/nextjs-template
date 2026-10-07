@@ -1,0 +1,37 @@
+@import "tailwindcss";
+/* @import "./foundations/colors.css";
+@import "./semantic-tokens/font.css";
+@import "./semantic-tokens/colors.css";
+@import "./semantic-tokens/text.css";
+@import "./semantic-tokens/tracking.css";
+@import "./semantic-tokens/sizing.css"; */
+@import "tw-animate-css";
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* Durante una view transition el overlay del navegador captura los clicks;
+   lo dejamos pasar para que la página siga siendo interactiva. */
+::view-transition {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(*),
+  ::view-transition-new(*),
+  ::view-transition-group(*) {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    font-family: var(--font-space-grotesk), sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}

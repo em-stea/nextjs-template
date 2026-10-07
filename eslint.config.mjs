@@ -96,6 +96,7 @@ const reactLintingConfig = defineConfig([
     rules: {
       "@eslint-react/no-useless-fragment": "error",
       "@eslint-react/no-missing-key": "warn",
+      "react/prop-types": "off",
       "react/no-array-index-key": "off",
       "react/self-closing-comp": "warn",
       "react/jsx-curly-brace-presence": ["error", {props: "never", children: "never"}],

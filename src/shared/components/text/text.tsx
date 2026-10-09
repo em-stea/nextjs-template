@@ -1,7 +1,8 @@
 import {VariantProps} from "class-variance-authority";
 
-import {textVariants} from "@/shared/styles/components/text";
-import {cn} from "@/shared/lib/utils";
+import {cn} from "@/shared/lib/tw-merge/utils";
+
+import {textVariants} from "./text.styles";
 
 type TextVariants = VariantProps<typeof textVariants>;
 

@@ -6,8 +6,8 @@ import type {ComponentProps} from "react";
 import {Slot} from "@radix-ui/react-slot";
 
 import {Spinner} from "@/shared/components/spinner/spinner";
-import {cn} from "@/shared/lib/utils";
-import {buttonVariants} from "@/shared/styles/components/button";
+import {cn} from "@/shared/lib/tw-merge/utils";
+import {buttonVariants} from "./button.styles";
 
 export type ButtonVariants = VariantProps<typeof buttonVariants>;
 

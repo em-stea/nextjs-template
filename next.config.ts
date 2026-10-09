@@ -1,5 +1,7 @@
 import type {NextConfig} from "next";
 
+import {withTailwindMergeConfig} from "@/shared/lib/tw-merge/helpers";
+
 const nextConfig: NextConfig = {
   reactCompiler: true,
   cacheComponents: true,
@@ -10,4 +12,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withTailwindMergeConfig(nextConfig);

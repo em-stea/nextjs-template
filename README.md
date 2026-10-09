@@ -11,6 +11,7 @@ Next.js template with App Router, React Compiler, Tailwind CSS v4, design tokens
 | Styles | Tailwind CSS 4 + CSS variables (design tokens) |
 | Components | shadcn/ui (Base UI / base-vega) + CVA |
 | Forms | React Hook Form + Zod + next-safe-action |
+| Auth | Auth.js (`next-auth` v5) |
 | Icons | Lucide + custom icons in `shared/components/icons` |
 | Quality | ESLint (Next, React, a11y, Prettier, React Compiler) + Prettier |
 | Package manager | pnpm |

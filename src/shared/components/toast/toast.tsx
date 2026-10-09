@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 import {Button} from "@/shared/components/button/button";
-import {cn} from "@/shared/lib/utils";
+import {cn} from "@/shared/lib/tw-merge/utils";
 import {
   toastActionVariants,
   toastCloseVariants,
@@ -22,7 +22,7 @@ import {
   toastTitleVariants,
   toastVariants,
   toastViewportVariants,
-} from "@/shared/styles/components/toast";
+} from "./toast.styles";
 
 const toast = ToastPrimitive.createToastManager();
 

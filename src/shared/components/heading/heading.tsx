@@ -1,7 +1,8 @@
 import {VariantProps} from "class-variance-authority";
 
-import {headingVariants} from "@/shared/styles/components/heading";
-import {cn} from "@/shared/lib/utils";
+import {cn} from "@/shared/lib/tw-merge/utils";
+
+import {headingVariants} from "./heading.styles";
 
 type HeadingVariants = VariantProps<typeof headingVariants>;
 
